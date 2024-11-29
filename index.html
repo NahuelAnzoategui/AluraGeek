@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek - Marcelo Yrala 2024</title>
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <header>
+        <img src="img/image1.png" alt="imagen 3 corazones retro estilo gameboy">
+        <h1>AluraGeek</h1>
+    </header>
+    <div class="misProductos">
+        <p>Mis Productos:</p>
+    </div>
+    <div class="container">
+        <main>
+            <div class="container-flex" id="productos">
+                <!-- Las cards de productos se cargarán aquí dinámicamente -->
+            </div>
+        </main>
+        <aside>
+            <div class="agregarProducto"><p>Agregar producto:</p></div>
+            <form id="productoForm">
+                <input type="text" id="name" placeholder="Nombre..." required>
+                <input type="number" id="price" placeholder="Precio..." required>
+                <input type="url" id="urlImage" placeholder="URL de la imagen..." required>
+                <div class="botonesFormulario">
+                    <input class="btnEnviar" type="submit" value="Enviar">
+                    <input class="btnLimpiar" type="reset" value="Limpiar">
+                </div>
+            </form>
+        </aside>
+    </div>
+    <footer>
+        <div class="logoFooter">
+            <img src="img/image1.png" alt="imagen 3 corazones retro estilo gameboy">
+            <h2>AluraGeek</h2>
+        </div>
+        <div class="infoFooter">
+            <h3>Desarrollado por Marcelo Yrala</h3>
+            <p>Alura Latam - 2024</p>
+        </div>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+</html>

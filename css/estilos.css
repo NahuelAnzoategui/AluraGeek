@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+/* VARIABLES */
+
+:root {
+    --ColorPrincipal: #5D04D9;
+    --ColorSecundario: #03318C;
+    --ColorTerciario: #9303A6;
+    --ColorCuaternario: #C004D9;
+    --ColorQuinteto: #8C0375;
+    --FuentePrincipal: "Press Start 2P", system-ui;
+
+}
+
+/* ESTILOS GLOBALES */
+
+img {
+    max-width: 100%;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: var(--FuentePrincipal);
+}
+
+body {
+    font-size: 1.6rem;
+    background-color: #F5F5F5;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+}
+
+header {
+    background-color: var(--ColorPrincipal);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border-bottom: 10px solid rgb(224, 219, 219);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 1rem;
+
+}
+
+.container-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 90%;
+    gap: 20px;
+    box-shadow: -19px 22px 17px -24px rgba(0,0,0,0.75);
+}
+
+
+
+footer {
+    background-color: var(--ColorPrincipal);
+    color: #fff;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding-top: 50px;
+   font-size: 1rem;
+}
+
+.logoFooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.infoFooter {
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 50px;
+    
+}
+
+
+.misProductos {
+    margin-left: 11rem;
+    font-size: 2rem;
+    padding: 2rem;
+    width: 35rem;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.agregarProducto {
+    text-align: center;
+    
+}
+
+aside form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+
+.card{
+    border: .5rem solid black;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--ColorPrincipal);
+    gap: 1rem;
+    box-shadow: -5px 5px 5px 0px rgba(110,108,108,0.75); 
+
+}
+
+.card h3{
+    font-size: 1.1rem;
+    color: #fff;
+}
+
+.card p {
+    font-size: 1.4rem;
+    color: #fff;
+}
+
+.infoProducto{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:baseline;
+    width: 100%;
+    
+}
+
+.infoProducto a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* FORMULARIO */
+ form input {
+    border: 0.2rem solid var(--ColorPrincipal);
+    padding: 1rem;
+    border-radius: .7rem;
+    color: var(--ColorPrincipal);
+    font-weight: 800;
+ }
+
+ .btnEnviar, .btnLimpiar {
+    width: 15rem
+ }
+
+ .btnEnviar {
+    background-color: var(--ColorPrincipal);
+    color: #fff;
+ }
+
+ .btnEnviar:hover {
+    background-color: #03318C;
+ }

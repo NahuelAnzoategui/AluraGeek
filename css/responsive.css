@@ -1,0 +1,10 @@
+@media (max-width:720px) {
+    .container {
+        display: flex;
+       flex-direction: column-reverse;    }
+        .misProductos {
+            display: none;
+        }
+    }
+
+    

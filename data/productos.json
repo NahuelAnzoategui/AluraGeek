@@ -1,0 +1,28 @@
+{
+  "productos": [
+    {
+      "id": "f296",
+      "name": "Game Boy clasic",
+      "price": "700",
+      "urlImage": "http://127.0.0.1:5501/img/image2.png"
+    },
+    {
+      "id": "9c03",
+      "name": "Game Boy clasic",
+      "price": "700",
+      "urlImage": "http://127.0.0.1:5501/img/image2.png"
+    },
+    {
+      "id": "f2dd",
+      "name": "Game Boy clasic",
+      "price": "700",
+      "urlImage": "http://127.0.0.1:5501/img/image2.png"
+    },
+    {
+      "id": "62e5",
+      "name": "dddd",
+      "price": "44",
+      "urlImage": "http://127.0.0.1:5501/img/image2.png"
+    }
+  ]
+}
